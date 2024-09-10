@@ -1,0 +1,16 @@
+@mixin center($type: 'both') {
+    display: flex;
+
+    @if $type =='vertical' {
+        justify-content: center;
+    }
+
+    @else if $type =='orizzontal' {
+        align-items: center;
+    }
+
+    @else if $type =='both' {
+        justify-content: center;
+        align-items: center;
+    }
+}
