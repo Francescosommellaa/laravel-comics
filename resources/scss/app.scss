@@ -1,6 +1,12 @@
 
 @import "~bootstrap/scss/bootstrap";
 
+
+// Import other partials
+@import './partials/footer';
+@import './partials/mixins';
+@import './partials/variables';
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {

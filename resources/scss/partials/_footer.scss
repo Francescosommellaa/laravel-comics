@@ -1,0 +1,62 @@
+@import 'variables';
+
+// Footer styles
+footer {
+    background: url(../../img/footer-bg.jpg);
+    background-size: cover;
+    color: $footer-text-color;
+
+    .row div {
+        margin-bottom: 20px;
+    }
+
+    h5 {
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 1em;
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            margin-bottom: 0.5rem;
+
+            a {
+                color: $footer-text-color;
+                text-decoration: none;
+                font-size: 14px;
+
+            &:hover {
+                color: $link-hover-color;
+            }
+            }
+        }
+    }
+
+    .img-fluid {
+        max-width: $icon-size-desktop;
+        margin-bottom: 10px;
+    }
+
+
+    /* Contenitore per le icone */
+    .icon-container {
+        background-color: blue;
+        color: white;
+        padding: 2em;
+
+        /* Immagini delle icone */
+        .icon-img {
+            max-width: 50%;
+            height: 50%;
+        }
+
+        /* Testo sotto le icone */
+        .icon-text {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    }
+
+}
